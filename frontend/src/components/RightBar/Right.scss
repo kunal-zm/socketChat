@@ -1,0 +1,53 @@
+.rightBar{
+    .header{
+        height: 70px;
+        .headerContent{
+            display: flex;
+            gap:40px;
+            background-color: white;
+            padding: 10px;
+            align-items: center;
+            img{
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+            }
+            p{
+                font-size:50px;
+            }
+        }
+    }
+    .messages{
+        height: calc(100% - 50px);
+        .messgeContent{
+            height:40px;
+            width: 40px;
+            padding: 20px 20px;
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+    .texting{
+        form{
+            display: flex;
+            width: 100%;
+            height: 50px;
+            align-items: center;
+            background-color: white;
+            input{
+                width: 100%;
+                border:none;
+                font-size: 20px;
+                height: inherit;
+            }
+            button{
+                border:none;
+                justify-content: center;
+                height: inherit;
+                width:60px;
+                background-color: beige;
+            }
+        }
+    }
+}
